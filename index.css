@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    background-image: url('./img/pitha.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+header{
+    background-color: rgba(0, 0, 0, 0.53);
+        backdrop-filter: blur(0px);
+        -webkit-backdrop-filter: blur(0px);
+    height: 100vh;
+}
+
+nav > ul{
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+    align-items: center;
+}
+nav > ul > li{
+    list-style: none;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 0, 208, 0.327);
+}
+nav > ul > li > a{
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+}
+section > h1{
+    color: white;
+    text-align: center;
+    margin: 30px 0px;
+    font-size: 35px;
+}
+form{
+    color: white;
+    text-align: center;
+    display: block;
+    margin-top: 40px;
+    width: 50%;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    justify-content: center;
+    /* From https://css.glass */
+        background: rgba(237, 237, 237, 0.38);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(4.2px);
+        -webkit-backdrop-filter: blur(4.2px);
+        border: 1px solid rgba(237, 237, 237, 0.52);
+}
+input{
+    margin: 10px 0px ;
+    
+}
+input, textarea {
+    width: 90%;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+            background: rgba(3, 18, 39, 0.672);
+                backdrop-filter: blur(6.2px);
+                -webkit-backdrop-filter: blur(5.2px);
+}
+select{
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    margin: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(183, 12, 117, 0.43)
+}
+button{
+    padding: 10px;
+        border: none;
+        margin: 0px 0px  10px 0px;
+        border-radius: 10px;
+        background-color: rgb(21, 92, 21);
+        color: white;
+}
